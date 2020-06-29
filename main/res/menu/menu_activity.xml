@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/ic_icon">
+
+    <item android:id="@+id/menu1"
+
+        android:title="Hello"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/bth"
+        android:title="Get Bluetooth"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item android:id="@+id/bttion"
+                android:title="on"
+                />
+            <item android:id="@+id/bttoff"
+                android:title="off"
+                />
+        </menu>
+    </item>
+    <item android:id="@+id/wfi"
+        android:title="Get wifi"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item android:id="@+id/wifion"
+                android:title="on"
+                />
+            <item android:id="@+id/wifioff"
+                android:title="off"
+                />
+        </menu>
+    </item>
+</menu>
